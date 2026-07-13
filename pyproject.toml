@@ -1,0 +1,11 @@
+[project]
+name = "notional-demo-app"
+version = "0.1.0"
+description = "A tiny notional SaaS license manager for Devin demo use."
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
